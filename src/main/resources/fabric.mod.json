@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "grass_pass",
+  "version": "${version}",
+
+  "name": "Grass Bypass",
+  "description": "Swing through grass for fabric!",
+  "authors": [
+    "Flytre"
+  ],
+  "contact": {
+    "homepage": "https://flytre.net/"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "grass_pass.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.17.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
